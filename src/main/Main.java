@@ -136,54 +136,54 @@ public class Main {
 
         // Vezba digitron
 
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Unesite prvi broj: ");
-        double operand1 = scanner.nextInt();
-
-        System.out.println("Unesite drugi broj: ");
-        double operand2 = scanner.nextInt();
-
-        System.out.println("Unesite operaciju: ");
-        String operator = scanner.next();
-
-        if (operator.equals("+")) {
-            System.out.println("Zbir je: " + (operand1 + operand2));
-        } else if (operator.equals("-")) {
-            System.out.println("Razlika je: " + (operand1 - operand2));
-        } else if (operator.equals("*")) {
-            System.out.println("Proizvod je: " + (operand1 * operand2));
-        } else if (operator.equals("/")) {
-            if (operand2 != 0 && operand1 != 0) {
-                System.out.println("Deljenje je: " + (operand1 / operand2));
-            } else if ((operand1 == 0 || operand2 == 0) && operator.equals("/")) {
-                System.out.println("Deljenje nulom nije dozvoljeno!");
-            }
-        } else {
-            System.out.println("Greska pri unosu");
-        }
+//        Scanner scanner = new Scanner(System.in);
+//
+//        System.out.println("Unesite prvi broj: ");
+//        double operand1 = scanner.nextInt();
+//
+//        System.out.println("Unesite drugi broj: ");
+//        double operand2 = scanner.nextInt();
+//
+//        System.out.println("Unesite operaciju: ");
+//        String operator = scanner.next();
+//
+//        if (operator.equals("+")) {
+//            System.out.println("Zbir je: " + (operand1 + operand2));
+//        } else if (operator.equals("-")) {
+//            System.out.println("Razlika je: " + (operand1 - operand2));
+//        } else if (operator.equals("*")) {
+//            System.out.println("Proizvod je: " + (operand1 * operand2));
+//        } else if (operator.equals("/")) {
+//            if (operand2 != 0 && operand1 != 0) {
+//                System.out.println("Deljenje je: " + (operand1 / operand2));
+//            } else if ((operand1 == 0 || operand2 == 0) && operator.equals("/")) {
+//                System.out.println("Deljenje nulom nije dozvoljeno!");
+//            }
+//        } else {
+//            System.out.println("Greska pri unosu");
+//        }
 
 
         // Vezba Max/Min vrednost niza
 
 
-        int[] mojNiz = {55, 67, -20, 0, 88};
-        int mojNizMax = mojNiz.length;
-
-        Arrays.sort(mojNiz);
-
-
-        int min = mojNiz[0];
-        System.out.println("Minimalna vrednost niza je: " + min);
-
-        int max = mojNiz[mojNiz.length - 1];
-        System.out.println("Maksimalna vrednost niza je: " + max);
+//        int[] mojNiz = {55, 67, -20, 0, 88};
+//        int mojNizMax = mojNiz.length;
+//
+//        Arrays.sort(mojNiz);
+//
+//
+//        int min = mojNiz[0];
+//        System.out.println("Minimalna vrednost niza je: " + min);
+//
+//        int max = mojNiz[mojNiz.length - 1];
+//        System.out.println("Maksimalna vrednost niza je: " + max);
 
 
         // Vezba 18
 
 
-        String[] reci = {"Heart", "Cherry", "Coin", "Melon", "Jocker"};
+     //    String[] reci = {"Heart", "Cherry", "Coin", "Melon", "Jocker"};
 //        String reci1;
 //        String reci2;
 //        String reci3;
@@ -191,34 +191,60 @@ public class Main {
 //        String reci5;
 
 
-        Random random = new Random();
-        int reci1 = random.nextInt(reci.length);
-        int reci2 = random.nextInt(reci.length);
-        int reci3 = random.nextInt(reci.length);
-        int reci4 = random.nextInt(reci.length);
-        int reci5 = random.nextInt(reci.length);
-
-        System.out.println("Combination is: " + reci[reci1] + " " + reci[reci2] + " " + reci[reci3] + " " + reci[reci4] + " " + reci[reci5]);
+//        Random random = new Random();
+//        int reci1 = random.nextInt(reci.length);
+//        int reci2 = random.nextInt(reci.length);
+//        int reci3 = random.nextInt(reci.length);
+//        int reci4 = random.nextInt(reci.length);
+//        int reci5 = random.nextInt(reci.length);
+//
+//        System.out.println("Combination is: " + reci[reci1] + " " + reci[reci2] + " " + reci[reci3] + " " + reci[reci4] + " " + reci[reci5]);
 
 
         // Vezba niz2d
 
-        int[][] niz2d = new int[][]{
-                {1, 2, 8},
-                {3, 4, 10},
-                {5, 6, 15},
-        };
+//        int[][] niz2d = new int[][]{
+//                {1, 2, 8},
+//                {3, 4, 10},
+//                {5, 6, 15},
+//        };
         //System.out.println("Duzina niza: " + niz2d.length);
 
         // System.out.println(niz2d[1][2]);
 
 
-        for (int[] a : niz2d) {
-            for (int b : a) {
-                System.out.print(b + " ");
-            }
-            System.out.println();
-        }
+//        for (int[] a : niz2d) {
+//            for (int b : a) {
+//                System.out.print(b + " ");
+//            }
+//            System.out.println();
+//        }
+//
+//
+
+        // Pravougaonik
+        Pravougaonik pravougaonik = new Pravougaonik();
+
+        pravougaonik.setA(5);
+        pravougaonik.setB(4);
+        pravougaonik.povrsina();
+
+        System.out.println("--------------------");
+
+
+        //
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }
