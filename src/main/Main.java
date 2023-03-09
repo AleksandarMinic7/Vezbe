@@ -1,6 +1,6 @@
 package main;
 
-import java.io.PrintStream;
+
 import java.util.Random;
 import java.util.Scanner;
 import java.util.Arrays;
@@ -183,15 +183,19 @@ public class Main {
         // Vezba 18
 
 
-     //    String[] reci = {"Heart", "Cherry", "Coin", "Melon", "Jocker"};
-//        String reci1;
-//        String reci2;
-//        String reci3;
-//        String reci4;
-//        String reci5;
+//         String[] reci = {" Heart ", " Cherry ", " Coin ", " Melon ", " Jocker "};
+//
+//        System.out.println("Combination is: ");
+//
+//        for (int i = 0; i < reci.length; i++) {
+//            Random random = new Random();
+//            int rand = random.nextInt(reci.length);
+//            System.out.printf(reci[rand]);
+//
+//        }
 
 
-//        Random random = new Random();
+       //  Random random = new Random();
 //        int reci1 = random.nextInt(reci.length);
 //        int reci2 = random.nextInt(reci.length);
 //        int reci3 = random.nextInt(reci.length);
@@ -223,14 +227,14 @@ public class Main {
 //
 
         // Pravougaonik
-        Pravougaonik pravougaonik = new Pravougaonik();
-
-        pravougaonik.setA(5);
-        pravougaonik.setB(4);
-        pravougaonik.povrsina();
-
-        System.out.println("--------------------");
-
+//        Pravougaonik pravougaonik = new Pravougaonik();
+//
+//        pravougaonik.setA(5);
+//        pravougaonik.setB(4);
+//        pravougaonik.povrsina();
+//
+//        System.out.println("--------------------");
+//
 
         //
 
